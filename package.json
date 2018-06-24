@@ -6,6 +6,8 @@
   "author": "Maksym Dmukhovskyy <dm.maksym@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.14.8"
+    "graphql": "^0.13.2",
+    "graphql-yoga": "^1.14.8",
+    "prisma-binding": "^2.1.0"
   }
 }
