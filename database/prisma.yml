@@ -1,13 +1,14 @@
 # The service name, this will be part of the endpoint of the Prisma API
-service: hackernews-node
+#service: hackernews-node
 
 # The deployment stage, this will also be part of the API endpoint,  
 # it’s common to use values such as dev, staging, or prod.
-stage: dev
+#stage: dev
 
 # Points to the file that holds your data model
 datamodel: datamodel.graphql
 
 # You can only access the API when providing JWTs that are signed with this secret
 secret: mysecret123
-cluster: public-metalbee-340/prisma-eu1
+#cluster: public-metalbee-340/prisma-eu1
+endpoint: https://eu1.prisma.sh/public-metalbee-340/hackernews-node/dev
