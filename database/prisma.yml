@@ -10,5 +10,11 @@ datamodel: datamodel.graphql
 
 # You can only access the API when providing JWTs that are signed with this secret
 secret: mysecret123
+
 #cluster: public-metalbee-340/prisma-eu1
 endpoint: https://eu1.prisma.sh/public-metalbee-340/hackernews-node/dev
+
+# Deploy hook
+hooks:
+  post-deploy:
+    - graphql get-schema --project database
