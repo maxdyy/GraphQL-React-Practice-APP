@@ -6,8 +6,10 @@
   "author": "Maksym Dmukhovskyy <dm.maksym@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "graphql": "^0.13.2",
     "graphql-yoga": "^1.14.8",
+    "jsonwebtoken": "^8.3.0",
     "prisma-binding": "^2.1.0"
   }
 }
